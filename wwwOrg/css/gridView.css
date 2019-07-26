@@ -1,0 +1,11 @@
+.grid-view {
+background-color: #555555;
+}
+
+.td {
+	max-width: 90px;
+}
+
+.th {
+	max-width: 90px;
+}

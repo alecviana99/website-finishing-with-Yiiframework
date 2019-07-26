@@ -1,0 +1,8 @@
+User-Agent: *    
+Disallow: /DL
+Disallow: /assets
+Disallow: /avatar
+Disallow: /css
+Disallow: /images
+Disallow: /protected
+Disallow: /themes

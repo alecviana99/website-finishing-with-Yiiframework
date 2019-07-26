@@ -1,0 +1,22 @@
+#postit{
+
+    display: block;
+    position: relative;
+    width: 400px;
+    height: 150px;
+    background: #aaa;
+    margin: 0 auto; padding: 0;
+}
+
+
+#postit:before{
+    content: "";
+    position: absolute;
+    right: 0px;
+    border-color: #FFF #33CCCC #ff8000 #FFF;
+    border-style: solid;
+    border-width: 0px 30px 30px 0px;
+    height: 0px;
+    width: 0px;
+    display: block;
+}

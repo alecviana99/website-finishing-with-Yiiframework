@@ -1,0 +1,40 @@
+div.Livre
+	{
+	width:16cm;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:5px;
+	margin-bottom:2cm;
+	padding:2.5cm;
+	background-color:white;
+	}	
+	
+body {border : 1px solid;}
+
+::selection{background-color: transparent;}
+
+.yop{
+	margin : 0px;
+	padding:0px;
+}
+
+div .test{
+	color: black;
+	position : fixed; 
+	border: solid 1px black; 
+	width : 40px; 
+	height : 40px; 
+	padding: 9px; 
+	text-align : center; 
+	border-radius : 20px; 
+	transform : rotate(90deg); 
+	font-size : 16px;
+	right : 25%;
+	bottom : 5%;
+}
+
+div .test:hover{
+	background-color : black;
+	color: white;
+	cursor : pointer;
+}
